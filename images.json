@@ -1,0 +1,53 @@
+{
+    "T3YTK24td2.jpg": {
+        "public_id": "kotqou2p14rezssoab1e",
+        "version": 1458239402,
+        "signature": "d1199996f1f27a80d34426d37f3118e4048190a4",
+        "width": 2000,
+        "height": 1574,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2016-03-17T18:30:02Z",
+        "tags": [],
+        "bytes": 1278501,
+        "type": "upload",
+        "etag": "b7b7e0fc881f6ee3ae87fb1c8d9c5df5",
+        "url": "http://res.cloudinary.com/rebbix/image/upload/v1458239402/kotqou2p14rezssoab1e.jpg",
+        "secure_url": "https://res.cloudinary.com/rebbix/image/upload/v1458239402/kotqou2p14rezssoab1e.jpg",
+        "original_filename": "T3YTK24td2"
+    },
+    "Van_Gogh_-_Runde_der_Gefangenen_(nach_Doré).jpeg": {
+        "public_id": "gtighk5ix1mqqapxifg4",
+        "version": 1458239406,
+        "signature": "29c9fc14500f9a4076ffd2b8016e4075d5218df4",
+        "width": 2538,
+        "height": 3204,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2016-03-17T18:30:06Z",
+        "tags": [],
+        "bytes": 4687680,
+        "type": "upload",
+        "etag": "37ec1390c84bfd63bbdca623d500dc0a",
+        "url": "http://res.cloudinary.com/rebbix/image/upload/v1458239406/gtighk5ix1mqqapxifg4.jpg",
+        "secure_url": "https://res.cloudinary.com/rebbix/image/upload/v1458239406/gtighk5ix1mqqapxifg4.jpg",
+        "original_filename": "Van_Gogh_-_Runde_der_Gefangenen_(nach_Dore\u0001)"
+    },
+    "4870x3832-96dpi-Vinsent-van-Gog-Poludennyj-otdyh.jpg": {
+        "public_id": "uenagjmlabalt6wkvwgn",
+        "version": 1458239406,
+        "signature": "6f9deccd67a01449fee9da0b9168aa5ebe03b8af",
+        "width": 4870,
+        "height": 3832,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2016-03-17T18:30:06Z",
+        "tags": [],
+        "bytes": 4730755,
+        "type": "upload",
+        "etag": "ea27fea0d5b982558b55bd05ec0e2cc2",
+        "url": "http://res.cloudinary.com/rebbix/image/upload/v1458239406/uenagjmlabalt6wkvwgn.jpg",
+        "secure_url": "https://res.cloudinary.com/rebbix/image/upload/v1458239406/uenagjmlabalt6wkvwgn.jpg",
+        "original_filename": "4870x3832-96dpi-Vinsent-van-Gog-Poludennyj-otdyh"
+    }
+}

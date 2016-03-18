@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Темна сторона картинок</title>
+  <link rel="stylesheet" href="style/presentation.css">
+</head>
+<body>
+    <section id="section-0">
+      <h2>Давайте спробуємо зверстати картинку.</h2>
+      <h3>Що ж може бути більш простішим?</h3>
+
+<code id="code-0">
+  &lt;html&gt;
+    &lt;head&gt;...&lt;/head&gt;
+    &lt;body&gt;
+      Text...
+      <em>&lt;img href="myImage.jpg"/&gt;</em>
+      ...text
+      &lt;/body&gt;
+  &lt;/html&gt;
+</code>
+      <iframe src="http://localhost:8080/demo-0.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-1">
+      <h2>Але давайте перевіримо нашу сторінку в бою...</h2>
+
+      <iframe src="http://localhost:8080/demo-1.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-2">
+      <h2>Спробуєм виправити...</h2>
+<code id="code-2">
+  &lt;html&gt;
+    &lt;head&gt;...&lt;/head&gt;
+    &lt;body&gt;
+      Text...
+      &lt;img href="myImage.jpg" <em>height='884px'</em>/&gt;
+      ...text
+    &lt;/body&gt;
+  &lt;/html&gt;
+</code>
+
+      <iframe style="resize: both;" src="http://localhost:8080/demo-2.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-3">
+      <h2>Інший шлях</h2>
+<code id="code-3">
+  &lt;html&gt;
+    &lt;head&gt;...&lt;/head&gt;
+    &lt;body&gt;
+      Text...
+
+      &lt;div
+        style="
+          <em>position: relative;</em>
+          <em>padding-bottom: 126.285%; //(висота * 100) / ширина;</em>
+        "&gt;
+        &lt;img href="myImage.jpg"
+          style="
+            <em>position: absolute;</em>
+            <em>width: 100%;</em>
+            <em>top:0;</em>
+            <em>left:0</em>
+          "
+        /&gt;
+      &lt;/div&gt;
+      ...text
+    &lt;/body&gt;
+  &lt;/html&gt;
+
+</code>
+
+      <iframe style="resize: both;" src="http://localhost:8080/demo-3.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-4">
+      <h2>SVG шлях.</h2>
+<code id="code-4">
+  &lt;html&gt;
+    &lt;head&gt;...&lt;/head&gt;
+    &lt;body&gt;
+      Text...
+      &lt;svg viewBox="0 0 <em>700 884</em>"&gt;
+        <em>&lt;image height="100%" width="100%"</em>
+          <em>xlink:href="myImage.jpg" /&gt;</em>
+      &lt;/svg&gt;
+      ...text
+    &lt;/body&gt;
+  &lt;/html&gt;
+
+</code>
+
+      <iframe style="resize: both;" src="http://localhost:8080/demo-4.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-4-1">
+      <h2>Причепурюємо.</h2>
+<code id="code-4-1">
+  &lt;html&gt;
+    &lt;head&gt;...&lt;/head&gt;
+    &lt;body&gt;
+      Text...
+      &lt;svg
+        style="
+          <em>background-image: url("myImage_w-10.jpg");</em>
+          <em>background-size: cover;</em>
+          <em>background-color: #6497AC;</em>
+        "
+        viewBox="0 0 700 884"&gt;
+
+        &lt;image height="100%" width="100%"
+          xlink:href="myImage.jpg" /&gt;
+      &lt;/svg&gt;
+      ...text
+    &lt;/body&gt;
+  &lt;/html&gt;
+</code>
+
+      <iframe style="resize: both;" src="http://localhost:8080/demo-4-1.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-5">
+      <h2>Але як же ж бути з вагою картинок?</h2>
+      <p>Хочеться для кожного пристрою віддавати карнинки потрібного розміру</p>
+
+<code id="code-5-0">
+  &lt;picture&gt;
+    &lt;source
+      media="(min-width: 40em)"
+      srcset="big.jpg 1x, big-hd.jpg 2x"&gt;
+    &lt;source srcset="small.jpg 1x, small-hd.jpg 2x"&gt;
+
+    &lt;img src="fallback.jpg" alt=""&gt;
+  &lt;/picture&gt;
+
+
+  &lt;img src="small.jpg"
+  srcset="large.jpg 1024w, medium.jpg 640w, small.jpg 320w"
+  sizes="(min-width: 36em) 33.3vw, 100vw"
+  &gt;
+
+</code>
+
+      <iframe style="resize: both;" src="http://localhost:8080/demo-5.html" frameborder="0"></iframe>
+    </section>
+
+    <section id="section-6">
+      <h2>Чого не вистачає для щастя?</h2>
+<code style="
+        font-family: Pt Serif;
+        position: absolute;
+        right: 120px;
+        bottom: 60px;
+        font-size: 18px;
+      ">
+
+
+...
+    Мені ж, мій боже, на землі
+    Подай любов, сердечний рай
+    І більш нічого не давай!
+...
+
+
+</code>
+    </section>
+
+</body>
+</html>

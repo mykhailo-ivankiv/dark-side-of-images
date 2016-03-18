@@ -1,0 +1,36 @@
+body {
+    font-family: "PT Sans";
+    overflow: hidden;
+}
+
+h2  {
+    margin: 100px;
+}
+section {
+    height:100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+code {
+    font-family: "PT Mono";
+    white-space: pre-wrap;
+}
+
+iframe {
+    border: 1px solid #ccc;
+    height: 100vh;
+    width:50vw;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+
+em,
+.emphasis {
+    background-color: rgb(240, 238, 66);
+    border-radius: 6px;
+    padding: 4px;
+    font-style: normal;
+}
